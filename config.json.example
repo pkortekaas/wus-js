@@ -1,0 +1,27 @@
+{
+	"active": "conformance",
+	"certificate": "certificate.crt",
+	"privatekey": "certificate.key",
+	"passphrase": "*******",
+	"tracefile": null,
+	"timeout": 60000,
+
+	"preprod":{
+		"delivery_url": "https://preprod-dgp2.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2",
+		"status_url": "https://preprod-dgp2.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2",
+		"certificate": "./cert/preprod-dgp2-procesinfrastructuur-nl.pem",
+		"ca": "./cert/kpn-organisatie-server-g3.pem"
+	},
+
+	"conformance":{
+		"delivery_url": "https://cs-bedrijven.procesinfrastructuur.nl/cpl/aanleverservice/1.2",
+		"status_url": "https://cs-bedrijven.procesinfrastructuur.nl/cpl/statusinformatieservice/1.2",
+		"certificate": "./cert/cs-bedrijven-procesinfrastructuur-nl.pem",
+		"ca": "./cert/kpn-private-services-g1.pem",
+		"//scenarios": [ "AanleverFault", "Happyflow", "StatusInformatieFault", "Afleverfout", "Foutuitvragendepartij",
+						"TechnischProbleemAfleveren", "MaximaalAantalAfleverpogingen", "ZwaarbelastAanleveren",
+						"OverbelastAanleveren", "ZwaarbelastStatusInformatie", "OverbelastStatusInformatie"
+					   ],
+		"scenario":  "Happyflow"
+	}
+}

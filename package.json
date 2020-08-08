@@ -1,0 +1,25 @@
+{
+  "name": "wus-js",
+  "version": "1.0.0",
+  "description": "Node sample implementation for WUS 2.0 voor bedrijven v 1.2 API",
+  "main": "wus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pkortekaas/wus-js.git"
+  },
+  "author": "Paul Kortekaas",
+  "license": "MIT",
+  "dependencies": {
+    "bufferjs": "^3.0.1",
+    "dateformat": "^3.0.3",
+    "formidable": "^1.2.1",
+    "xml-crypto": "^1.4.0",
+    "xml2js": "^0.4.23",
+    "xmlbuilder": "^13.0.2",
+    "xmldom": "=0.1.22"
+  },
+  "devDependencies": {}
+}
