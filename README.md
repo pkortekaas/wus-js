@@ -52,7 +52,7 @@ Reference: Happyflow
 ```
 
 #### Status result
-```json
+```
 Status from conformance
 200
 [
