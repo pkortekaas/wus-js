@@ -18,7 +18,7 @@ As already mentioned the WS-* implementation is all done through the [ws.js](htt
 **Note:** All development and testing has been done under Linux.
 
 ### Usage
-- Get a copy of this example using: `git clone ...`
+- Get a copy of this example using: `git clone https://github.com/pkortekaas/wus-js`
 - Do a `npm install` to get all the dependency modules
 - Copy the `config.json.example` file to `config.json` and set the certificate, privatekey and passphrase keys to their proper values.
 - You should be all set to run: `node wus.js`
@@ -34,7 +34,7 @@ As already mentioned the WS-* implementation is all done through the [ws.js](htt
 
 ### Sample output
 #### Deliver result
-```json
+```
 Delivering to conformance
 Reference: Happyflow
 200
