@@ -1,25 +1,29 @@
 {
   "name": "wus-js",
   "version": "1.0.0",
-  "description": "Node sample implementation for WUS 2.0 voor bedrijven v 1.2 API",
-  "main": "wus.js",
+  "description": "WUS 2.0 example in TypeScript",
+  "main": "wus-test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pkortekaas/wus-js.git"
-  },
-  "author": "Paul Kortekaas",
+  "author": "",
   "license": "MIT",
-  "dependencies": {
-    "bufferjs": "^3.0.1",
-    "dateformat": "^3.0.3",
-    "formidable": "^1.2.1",
-    "xml-crypto": "^1.4.0",
-    "xml2js": "^0.4.23",
-    "xmlbuilder": "^13.0.2",
-    "xmldom": "=0.1.22"
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/dateformat": "^3.0.1",
+    "@types/node": "^14.14.37",
+    "@types/uuid": "^8.3.0",
+    "@types/xml-crypto": "^1.4.1",
+    "@types/xml2js": "^0.4.8",
+    "@types/xmldom": "^0.1.30",
+    "mocha": "^8.3.2"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dateformat": "^4.5.1",
+    "uuid": "^8.3.2",
+    "xml-crypto": "^2.1.1",
+    "xml2js": "^0.4.23",
+    "xmlbuilder": "^15.1.1"
+  }
 }

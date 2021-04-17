@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2018",
+    "sourceMap": true,
+    "outDir": "out",
+    "noEmitOnError": true
+  },
+  "exclude": [
+    "node_modules",
+    "backup"
+  ]
+}

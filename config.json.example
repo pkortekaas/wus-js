@@ -9,15 +9,15 @@
 	"preprod":{
 		"delivery_url": "https://preprod-dgp2.procesinfrastructuur.nl/wus/2.0/aanleverservice/1.2",
 		"status_url": "https://preprod-dgp2.procesinfrastructuur.nl/wus/2.0/statusinformatieservice/1.2",
-		"certificate": "./cert/preprod-dgp2-procesinfrastructuur-nl.pem",
-		"ca": "./cert/kpn-organisatie-server-g3.pem"
+		"ca": "./cert/kpn-pkioverheid-server-ca2020.pem",
+		"fingerprint": "0B:F5:0D:F1:80:BA:02:7D:D3:E9:69:A8:67:7C:2E:A3:EA:2A:89:81"
 	},
 
 	"conformance":{
 		"delivery_url": "https://cs-bedrijven.procesinfrastructuur.nl/cpl/aanleverservice/1.2",
 		"status_url": "https://cs-bedrijven.procesinfrastructuur.nl/cpl/statusinformatieservice/1.2",
-		"certificate": "./cert/cs-bedrijven-procesinfrastructuur-nl.pem",
 		"ca": "./cert/kpn-private-services-g1.pem",
+		"fingerprint": "7C:46:D3:6D:7D:8B:5B:5C:B1:4F:CC:6D:DB:CD:55:1B:DB:8B:1D:D0",
 		"//scenarios": [ "AanleverFault", "Happyflow", "StatusInformatieFault", "Afleverfout", "Foutuitvragendepartij",
 						"TechnischProbleemAfleveren", "MaximaalAantalAfleverpogingen", "ZwaarbelastAanleveren",
 						"OverbelastAanleveren", "ZwaarbelastStatusInformatie", "OverbelastStatusInformatie"

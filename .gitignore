@@ -107,4 +107,8 @@ dist
 .vscode-test
 
 .eslintrc.json
+
+out
+backup
+
 config.json
